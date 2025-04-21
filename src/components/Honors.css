@@ -1,0 +1,85 @@
+/* src/components/HonorsAndAwards.css */
+.honors-and-awards {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #6f0aeb, #9c66f6); /* Subtle gradient complementing purple */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 40px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .section-title {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+    color: #fff; /* Adjusted color to stand out against the gradient */
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .honors-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .honor-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .honor-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    background-color: #f1f1f1;
+  }
+  
+  .award-icon {
+    font-size: 3rem;
+    color: #6f0aeb;
+    margin-bottom: 20px;
+  }
+  
+  .honor-card h3 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .honor-card p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .honor-card p:last-child {
+    font-style: italic;
+    color: #777;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .honors-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .section-title {
+      font-size: 2.5rem;
+    }
+  
+    .honor-card {
+      padding: 20px;
+    }
+  }
+  

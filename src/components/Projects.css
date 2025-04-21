@@ -1,0 +1,99 @@
+/* src/components/Projects.css */
+.projects {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #6f0aeb, #9c66f6); /* Gradient background */
+    color: #fff; /* Ensuring text is visible on the gradient */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+    color: #fff; /* White text for contrast on the gradient background */
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    background-color: #f1f1f1;
+  }
+  
+  .project-card h3 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .project-card p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .project-technologies {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .project-technologies li {
+    font-size: 1.1rem;
+    color: #888;
+    margin-bottom: 5px;
+  }
+  
+  .project-link {
+    font-size: 1.2rem;
+    color: #6f0aeb;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .project-link:hover {
+    color: #6f0aeb;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .projects-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .section-title {
+      font-size: 2.5rem;
+    }
+  
+    .project-card {
+      padding: 20px;
+    }
+  }
+  

@@ -11,6 +11,9 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
+    "aos": "^2.3.4",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^12.7.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
@@ -40,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.7"
   }
 }
