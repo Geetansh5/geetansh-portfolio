@@ -1,5 +1,5 @@
 .hero {
-    background: url('IMG_8009.jpg') center center/cover no-repeat;
+    /* background removed since it's now handled via inline style */
     color: white;
     height: 100vh;
     display: flex;
@@ -23,41 +23,41 @@
 
 .hero-content {
     z-index: 1;
-    max-width: 700px; /* Increased max-width for better content scaling */
+    max-width: 700px;
     padding: 20px;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Adding subtle text shadow for readability */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero h1 {
-    font-size: 3.5rem; /* Increased font size */
+    font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 20px;
-    letter-spacing: 3px; /* Increased letter-spacing for a more elegant look */
+    letter-spacing: 3px;
     text-transform: uppercase;
-    color: #6f0aeb; /* Light purple accent color for heading */
-    animation: fadeIn 2s ease-out; /* Added animation for smooth entry */
+    color: #6f0aeb;
+    animation: fadeIn 2s ease-out;
 }
 
 .hero p {
-    font-size: 1.5rem; /* Larger font size for better readability */
+    font-size: 1.5rem;
     margin-bottom: 30px;
-    animation: fadeIn 2.5s ease-out; /* Slightly delayed animation for paragraph */
+    animation: fadeIn 2.5s ease-out;
 }
 
 .cta-button {
     font-size: 1.2rem;
-    padding: 12px 25px; /* Slightly larger padding for the button */
-    background-color: #6f0aeb; /* Light purple accent color for the button */
+    padding: 12px 25px;
+    background-color: #6f0aeb;
     color: white;
     text-decoration: none;
     border-radius: 30px;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Added subtle shadow for depth */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .cta-button:hover {
-    background-color: #5a52e0; /* Darker purple on hover */
-    transform: translateY(-5px); /* Slight hover effect to raise the button */
+    background-color: #5a52e0;
+    transform: translateY(-5px);
 }
 
 @keyframes fadeIn {

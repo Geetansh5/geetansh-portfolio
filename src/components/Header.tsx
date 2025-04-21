@@ -2,7 +2,15 @@ import React from 'react';
 import './Header.css';
 
 const Header: React.FC = () => (
-  <header className="hero" data-aos="fade-up">
+  <header
+    className="hero"
+    data-aos="fade-up"
+    style={{
+      backgroundImage: "url('/IMG_8009.jpg')",
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    }}
+  >
     <div className="hero-content">
       <h1 data-aos="zoom-in">Geetansh Malhotra</h1>
       <p data-aos="fade-in" data-aos-delay="200">
