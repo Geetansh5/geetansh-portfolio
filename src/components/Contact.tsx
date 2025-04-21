@@ -46,8 +46,8 @@ const Contact = () => {
           </ul>
           <ul className="social-icons">
             <li><a href="mailto:geetanshmalhotra0507@gmail.com"><i className="fas fa-envelope"></i></a></li>
-            <li><a href="https://github.com/Geetansh5" target="_blank"><i className="fab fa-github"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/geetansh-malhotra-3b9885202/" target="_blank"><i className="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/Geetansh5" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/geetansh-malhotra-3b9885202/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a></li>
           </ul>
         </div>
 
