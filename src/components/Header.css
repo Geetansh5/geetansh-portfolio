@@ -1,5 +1,5 @@
 .hero {
-    background: url('/Users/geetansh/my-portfolio/IMG_8009.jpg') center center/cover no-repeat;
+    background: url('IMG_8009.jpg') center center/cover no-repeat;
     color: white;
     height: 100vh;
     display: flex;
